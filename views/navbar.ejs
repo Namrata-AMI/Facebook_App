@@ -1,0 +1,72 @@
+<style>
+    .search-btn{
+      background-color: #fe424d;
+      color:#fff;
+      border-radius: 25px;
+      padding: 0 1rem 0 1rem;
+    }
+  
+    .search-btn:hover{
+      background-color: #fe424d;
+      color:#fff;
+    }
+  
+    .search-btn i{
+      display: inline;
+      margin-right: 0.5rem;
+    }
+  
+    .search-inp{
+      border-radius: 25px;
+      padding: 0.5rem 3rem 0.5rem 3rem;
+      font-size: 1rem;
+    }
+  
+    @media (max-width: 767.98px){
+      .explore{
+        display: none;
+      }
+      .search{
+        display: none;
+      }
+      .links{
+        display: flex;
+        flex-direction:row;
+        margin-left: 1rem;
+        padding-left: 0.75rem;
+        padding-right: -0.5rem;
+        margin-top: -1rem;
+        font-size: 13px;
+      }
+      .nav-link{
+        margin-left: 1.5rem;
+        margin-top: -1.5rem;
+        margin-right: -1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  
+  </style>
+  
+  <nav class="navbar navbar-expand-md bg-body-tertiary border-bottom sticky-top">      <!--it will remain expanded even in medium-->
+      <div class="container-fluid">         
+        <a class="navbar-brand" href="#"><i class="fa-regular fa-compass"></i></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link explore">Explore</a>
+          </div>
+
+  
+          <div class="navbar-nav ms-auto links">
+            <a class="nav-link"><h5>Facebook App</h5></a>
+  
+  
+          </div>
+        </div>
+      </div>
+    </nav>
+  
+  
