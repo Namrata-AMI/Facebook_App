@@ -98,12 +98,12 @@ app.get("/auth/facebook/callback",
     }
 );
 
-app.get("/app/show", isLoggedIn, (req, res) => {
-    res.render("show.ejs", { user: req.user }); 
-});
-
 app.get("/app", (req, res) => {
     res.render("index.ejs");
+});
+
+app.get("/app/show", isLoggedIn, (req, res) => {
+    res.render("show.ejs", { user: req.user }); 
 });
 
 app.post("/submit", isLoggedIn, (req, res) => {

@@ -54,3 +54,35 @@ body{
   align-items: space-evenly;
 }
 
+@media(max-width:768px){
+  .head_tab{
+    font-size: 1.5rem !important;
+    flex-wrap: wrap;
+    max-width: 100px;
+    margin-left: -1.3rem !important;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 1.2;
+    align-items: space-evenly;
+  }
+
+  .f-info{
+    flex-direction: column;
+  }
+
+  .line_q{
+    max-width: 400px;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    margin-left: -1.2rem!important;
+    text-align: center;
+    align-items: space-evenly;
+  }
+
+  .btn_sign{
+    margin-left: -2rem !important;
+    max-width: 400px;
+    text-align: left;
+  }
+
+}
